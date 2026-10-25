@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Muhammad Ali — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-text">Ali</span>
+        <span class="logo-dot"></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#feedback" class="nav-link">Feedback</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">I'm Muhammad Ali</p>
+      <h1 class="hero-title">CS Student &amp; AI Stack Engineer building intelligent solutions</h1>
+      <p class="hero-sub">SQA Engineer &nbsp;·&nbsp; DSA &nbsp;·&nbsp; Full Stack Developer</p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">Start a Project</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="photo-ring">
+        <img src="images/alii.jpg" alt="Muhammad Ali" id="heroPhoto"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="container">
+      <p class="section-eyebrow">Get To Know More</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-cards">
+        <div class="about-card">
+          <i class="fa-solid fa-graduation-cap about-icon"></i>
+          <h3>Education</h3>
+          <p>BS Computer Science</p>
+          <p class="about-card-sub">Muhammad Ali Jinnah University, Karachi</p>
+        </div>
+        <div class="about-card">
+          <i class="fa-solid fa-laptop-code about-icon"></i>
+          <h3>Field</h3>
+          <p>AI Stack Engineer</p>
+          <p class="about-card-sub">SQA &nbsp;·&nbsp; DSA &nbsp;·&nbsp; Full Stack</p>
+        </div>
+      </div>
+      <p class="about-bio">
+        CS Student at Muhammad Ali Jinnah University with a passion for building intelligent, scalable software. I specialize in AI-driven applications, full-stack web development, and software quality assurance. From designing CSP-based AI schedulers to crafting responsive frontends — I bring ideas to life with clean code and a sharp eye for quality.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════════════════ -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="section-eyebrow skills-eyebrow">What I Work With</p>
+      <h2 class="section-title">Technologies I Use</h2>
+
+      <div class="skills-group">
+        <h4 class="skills-category">Frontend</h4>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-brands fa-html5 skill-icon html"></i><span>HTML5</span></div>
+          <div class="skill-card"><i class="fa-brands fa-css3-alt skill-icon css"></i><span>CSS3</span></div>
+          <div class="skill-card"><i class="fa-brands fa-js skill-icon js"></i><span>JavaScript</span></div>
+          <div class="skill-card"><i class="fa-brands fa-react skill-icon react"></i><span>React</span></div>
+          <div class="skill-card"><i class="fa-solid fa-wind skill-icon tailwind"></i><span>Tailwind CSS</span></div>
+          <div class="skill-card"><i class="fa-solid fa-n skill-icon next"></i><span>Next.js</span></div>
+          <div class="skill-card"><i class="fa-solid fa-code skill-icon ts"></i><span>TypeScript</span></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h4 class="skills-category">Backend</h4>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-brands fa-python skill-icon python"></i><span>Python</span></div>
+          <div class="skill-card"><i class="fa-brands fa-node-js skill-icon node"></i><span>Node.js</span></div>
+          <div class="skill-card"><i class="fa-solid fa-server skill-icon express"></i><span>Express.js</span></div>
+          <div class="skill-card"><i class="fa-solid fa-flask skill-icon flask"></i><span>Flask</span></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h4 class="skills-category">Database</h4>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-solid fa-database skill-icon mysql"></i><span>MySQL</span></div>
+          <div class="skill-card"><i class="fa-solid fa-database skill-icon pg"></i><span>PostgreSQL</span></div>
+          <div class="skill-card"><i class="fa-solid fa-database skill-icon mssql"></i><span>MSSQL</span></div>
+          <div class="skill-card"><i class="fa-solid fa-leaf skill-icon mongo"></i><span>MongoDB</span></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h4 class="skills-category">SQA</h4>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-solid fa-clipboard-check skill-icon manual"></i><span>Manual Testing</span></div>
+          <div class="skill-card"><i class="fa-solid fa-paper-plane skill-icon postman"></i><span>Postman</span></div>
+          <div class="skill-card"><i class="fa-solid fa-robot skill-icon selenium"></i><span>Selenium</span></div>
+          <div class="skill-card"><i class="fa-solid fa-play skill-icon playwright"></i><span>Playwright</span></div>
+          <div class="skill-card"><i class="fa-brands fa-jira skill-icon jira"></i><span>JIRA</span></div>
+        </div>
+      </div>
+
+      <div class="skills-group">
+        <h4 class="skills-category">DSA</h4>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fa-solid fa-c skill-icon cpp"></i><span>C++</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════════════════ -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <p class="section-eyebrow">What I've Built</p>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-sub">Check out some of my recent work</p>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="E-Commerce Website"/>
+            <div class="project-overlay">
+              <span class="project-label">Web App</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>E-Commerce Website</h3>
+            <p>Full-featured online shopping platform with cart, checkout, product management, and payment integration.</p>
+            <div class="project-tags">
+              <span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="#" class="proj-btn proj-btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=600&q=80" alt="AI Timetable Generator"/>
+            <div class="project-overlay">
+              <span class="project-label">AI Project</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>AI Timetable Generator</h3>
+            <p>Intelligent university scheduling system using CSP backtracking with MRV heuristic. Auto-generates conflict-free timetables.</p>
+            <div class="project-tags">
+              <span>Python</span><span>CSP Algorithm</span><span>Tkinter</span><span>AI</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="#" class="proj-btn proj-btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1574375927938-d5a98e8ffe85?w=600&q=80" alt="Netflix Clone"/>
+            <div class="project-overlay">
+              <span class="project-label">Clone App</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Netflix Clone</h3>
+            <p>Pixel-perfect Netflix UI clone with movie listings, trailers, category browsing, and responsive design.</p>
+            <div class="project-tags">
+              <span>React</span><span>CSS3</span><span>TMDB API</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="#" class="proj-btn proj-btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://images.unsplash.com/photo-1600267204091-5c1ab8b10c02?w=600&q=80" alt="Test Case Management Tool"/>
+            <div class="project-overlay">
+              <span class="project-label">SQA Project</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Test Case Management Tool</h3>
+            <p>SQA platform to write, organize and execute manual test cases. Tracks pass/fail results, logs bugs, and generates reports.</p>
+            <div class="project-tags">
+              <span>Manual Testing</span><span>JIRA</span><span>Selenium</span><span>Python</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="proj-btn"><i class="fa-solid fa-eye"></i> View</a>
+              <a href="#" class="proj-btn proj-btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FEEDBACK
+  ═══════════════════════════════════════════════════ -->
+  <section class="feedback" id="feedback">
+    <div class="container">
+      <div class="feedback-inner">
+        <div class="feedback-header">
+          <div class="feedback-icon-wrap">
+            <i class="fa-solid fa-comments feedback-main-icon"></i>
+          </div>
+          <div>
+            <p class="section-eyebrow feedback-eyebrow">Your Opinion Matters</p>
+            <h2 class="section-title feedback-title">Give Me a Feedback</h2>
+          </div>
+        </div>
+        <form class="feedback-form" id="feedbackForm" action="https://formspree.io/f/xdeeaqnq" method="POST">
+          <textarea name="feedback" class="feedback-textarea" placeholder="Share your thoughts, suggestions, or anything you'd like me to know..." required></textarea>
+          <button type="submit" class="btn btn-primary feedback-submit">
+            <i class="fa-solid fa-paper-plane"></i> Submit Feedback
+          </button>
+          <p class="form-success" id="feedbackSuccess">Thanks for your feedback! 🙌</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container contact-container">
+
+      <div class="contact-form-wrap">
+        <p class="section-eyebrow contact-eyebrow">GET IN TOUCH</p>
+        <h2 class="contact-title">Contact.</h2>
+        <form id="contactForm" action="https://formspree.io/f/xljjgqrd" method="POST">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" name="name" placeholder="What's your good name?" required/>
+          </div>
+          <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" name="email" placeholder="What's your email address?" required/>
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea name="message" placeholder="What do you want to say?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary contact-submit">Send</button>
+          <p class="form-success" id="contactSuccess">Message sent! I'll get back to you soon ✅</p>
+        </form>
+      </div>
+
+      <div class="contact-globe">
+        <div class="globe-wrap">
+          <div class="globe"></div>
+          <div class="globe-ring r1"></div>
+          <div class="globe-ring r2"></div>
+          <div class="globe-ring r3"></div>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:aliiqbal1125@gmail.com" class="contact-link">
+            <i class="fa-solid fa-envelope"></i> aliiqbal1125@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/muhammad-ali-73aba1301" target="_blank" class="contact-link">
+            <i class="fa-brands fa-linkedin"></i> LinkedIn Profile
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <p>© 2026 Muhammad Ali &nbsp;·&nbsp; Built with passion 🔥</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
